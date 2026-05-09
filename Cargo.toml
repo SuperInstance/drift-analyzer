@@ -1,0 +1,16 @@
+[package]
+name = "drift-analyzer"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75.0"
+description = "Precision drift analyzer for constraint systems — which boat sinks first?"
+license = "MIT"
+repository = "https://github.com/SuperInstance/drift-analyzer"
+
+[[bin]]
+name = "drift-analyzer"
+path = "src/main.rs"
+
+[lib]
+name = "drift_analyzer"
+path = "src/lib.rs"
